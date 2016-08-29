@@ -184,4 +184,9 @@ dependencies {
 
     // loading https://github.com/d-max/spots-dialog
     compile 'com.github.d-max:spots-dialog:0.4@aar'
+
+    // smarttablayout
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    //Optional: see how to use the utility.
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
 }
