@@ -189,4 +189,8 @@ dependencies {
     compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
     //Optional: see how to use the utility.
     compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+    // Android徽章控件
+    compile 'cn.bingoogolapple:bga-badgeview:1.1.1@aar'
+    // smartadapters
+    compile 'io.nlopez.smartadapters:library:1.3.1'
 }
