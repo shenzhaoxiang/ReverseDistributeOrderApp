@@ -22,5 +22,5 @@
     <dimen name="button_height_short">32dp</dimen>
 
     <!-- Smart Tab module -->
-    <dimen name="tab_height">100dp</dimen>
+    <dimen name="tab_height">60dp</dimen>
 </resources>

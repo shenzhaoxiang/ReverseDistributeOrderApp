@@ -10,7 +10,7 @@
 
     <color name="font_black">@android:color/black</color>
     <color name="font_gray">@android:color/darker_gray</color>
-    <color name="font_green">@color/bg_green</color>
+    <color name="font_green">#47FE00</color>
 
     <color name="bg_white">#FFFFFF</color>
     <color name="bg_green">#6DFFA4</color>

@@ -14,7 +14,7 @@
     <com.ogaclejapan.smarttablayout.SmartTabLayout
         android:id="@+id/viewpagertab"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/tab_height"
+        android:layout_height="wrap_content"
         android:background="@android:color/white"
         app:stl_distributeEvenly="true"
         app:stl_dividerColor="@color/transparent"

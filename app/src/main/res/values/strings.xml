@@ -2,7 +2,7 @@
     <string name="app_name">逆向派单</string>
 
     <!-- Smart Tab module -->
-    <string name="module_order_box">收件箱</string>
+    <string name="module_order_box">收件</string>
     <string name="module_search">查询</string>
     <string name="module_me">我的</string>
 </resources>
