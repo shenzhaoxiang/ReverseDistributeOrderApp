@@ -15,10 +15,10 @@ import com.ctsig.rdo.base.BaseFragment;
  * @email shenzhaoxiang@gmail.com
  * @date: 2016-05-27 17:20
  */
-public class TopicsFragment extends BaseFragment {
+public class SearchFragment extends BaseFragment {
     @Override
     public int bindLayout() {
-        return R.layout.fragment_topics;
+        return R.layout.fragment_search;
     }
 
     @Override

@@ -6,8 +6,10 @@
 
     <TextView
         android:id="@+id/tv_header"
+        android:text="个人中心"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:textSize="@dimen/font_large"
         android:textColor="@color/font_black"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"/>
 </LinearLayout>

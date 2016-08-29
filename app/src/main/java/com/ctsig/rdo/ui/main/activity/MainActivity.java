@@ -12,9 +12,9 @@ import android.widget.TextView;
 
 import com.ctsig.rdo.R;
 import com.ctsig.rdo.base.BaseActivity;
-import com.ctsig.rdo.ui.main.fragment.RecommendedFragment;
-import com.ctsig.rdo.ui.main.fragment.TopicsFragment;
-import com.ctsig.rdo.ui.main.fragment.WikiFragment;
+import com.ctsig.rdo.ui.main.fragment.OrderBoxFragment;
+import com.ctsig.rdo.ui.main.fragment.SearchFragment;
+import com.ctsig.rdo.ui.main.fragment.MeFragment;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
@@ -51,12 +51,12 @@ public class MainActivity extends BaseActivity {
 
     protected void setupTabView() {
         final LayoutInflater inflater = LayoutInflater.from(this);
-        final int[] tabIcons = {R.drawable.ic_recommended, R.drawable.ic_topics, R.drawable.ic_wiki};
+        final int[] tabIcons = {R.drawable.ic_orderbox, R.drawable.ic_search, R.drawable.ic_me};
         final int[] tabText = {R.string.module_order_box, R.string.module_search, R.string.module_me};
         FragmentPagerItems pages = FragmentPagerItems.with(this)
-                .add(R.string.module_order_box, RecommendedFragment.class)
-                .add(R.string.module_search, TopicsFragment.class)
-                .add(R.string.module_me, WikiFragment.class)
+                .add(R.string.module_order_box, OrderBoxFragment.class)
+                .add(R.string.module_search, SearchFragment.class)
+                .add(R.string.module_me, MeFragment.class)
                 //.add(R.string.me, MeFragment.class)
                 .create();
         FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
