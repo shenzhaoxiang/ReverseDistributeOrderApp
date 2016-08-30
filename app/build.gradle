@@ -16,12 +16,12 @@ android {
         // 目标SDK版本
         targetSdkVersion 23
         // 版本号 versionCode = x * 10000 + y * 100 + z 的格式命名
-        versionCode 10000
+        versionCode 1
         // 版本名字 versionName = x.y.z, 且 x.y.z 都为数字
         // x -> 主版本号，无上限
         // y -> 小功能版本号，上限 99(可以根据实际情况调整)
         // z -> 修订版本号（修复BUG），上限 99(可以根据实际情况调整)
-        versionName "1.0.0"
+        versionName "0.0.1"
     }
 
     signingConfigs {
